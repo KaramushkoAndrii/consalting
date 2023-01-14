@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 213px;
+    padding-bottom: 52px;
+    &__link {
+        padding-bottom: 7px;
+        font-family: SF Pro Display;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: right;
+        color: rgba(160, 160, 160, 0.54);
+    }
+}
+
+#footer-link-politic {
+    position: relative;
+    &::before {
+        position: absolute;
+        display: block;
+        content: "";
+        height: 1px;
+        width: 100%;
+        background-color: rgba(160, 160, 160, 0.54);
+        bottom: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,17 @@
+.write-me {
+    display: flex;
+}
+
+.write-me__title > span {
+    display: block;
+    margin-top: 25px;
+    max-width: 371px;
+    font-family: SF Pro Display;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.4);
+    text-transform: none;
+}

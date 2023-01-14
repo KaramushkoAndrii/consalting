@@ -1,0 +1,23 @@
+.write-list {
+    margin-left: 236px;
+}
+
+.write-list__item:not(:last-child) {
+    margin-bottom: 60px;
+}
+
+.write-list__link {
+    font-family: Bebas Neue;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $main-text-color;
+    border-radius: 50%;
+    padding: 20px 35px 4px;
+    border: 1px solid transparent;
+    &:hover {
+        border-color: $main-blue;
+    }
+}

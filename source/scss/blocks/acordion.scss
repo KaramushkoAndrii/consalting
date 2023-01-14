@@ -1,0 +1,30 @@
+.acordion {
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    &__button {
+        background-color: #3B3B3B;
+        border-radius: 50%;
+        &-icon {
+            padding: 4px;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+    }
+    &__title {
+        font-family: SF Pro Display;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $main-text-color;
+        margin-bottom: 40px;
+    }
+    &__text {
+        margin-bottom: 56px;
+    }
+}

@@ -1,0 +1,21 @@
+.slider-navigation-button {
+    font-family: Bebas Neue;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: $main-text-color;
+    padding: 34px 21px;
+    border: solid 1px;
+    border-radius: 50%;
+    &:hover {
+        border-color: $main-blue;
+        background-color: $main-blue;
+    }
+    &:active {
+        border-color: $main-blue;
+        color: $main-blue;
+        background-color: transparent;
+    }
+}

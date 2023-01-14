@@ -1,0 +1,23 @@
+.webnauts {
+    padding-bottom: 220px;
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 72px;
+    }
+    &__title {
+        font-family: Bebas Neue;
+        font-size: 190px;
+        font-weight: 700;
+        line-height: 190px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $main-text-color;
+        text-shadow: 6px 6px $main-blue;
+    }
+    &__navigation {
+        display: flex;
+        gap: 31px;
+    }
+}

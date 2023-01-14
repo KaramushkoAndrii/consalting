@@ -1,0 +1,17 @@
+header.header
+    .header__container.container
+        a.header__logo(href="#")
+            svg.header__logo-icon(height="19" width="46")
+                use(xlink:href="img/sprites/sprite-multi.svg#logo")
+        button.header__switch.switch
+            svg.switch__icon(height="24" width="24")
+                use(xlink:href="img/sprites/sprite-mono.svg#day-mode")
+
+        button.header__mobile-btn
+            img(src="./img/mobile-menu.png", alt="burger-menu")
+        //navigation
+        
+        include ../blocks/navigation.pug
+
+        button.header__callback 
+            a.header__callback-link(href="#") Связаться со мной

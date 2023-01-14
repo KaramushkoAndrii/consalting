@@ -1,0 +1,35 @@
+.header__container {
+    display: flex;
+    max-width: 100%;
+    margin: 24px auto 106px;
+    align-items: flex-start;
+    .header__switch {
+        margin-left: 35px;
+    }
+
+    .header__mobile-btn {
+        display: none;
+    }
+
+    .header__callback {
+        margin-left: auto;
+        margin-right: 0;
+        background-color: $main-color-black;
+        border: 1px solid #83C1FA;
+        border-radius: 60px;  
+        padding: 23px 54px 18px 54px;
+        &:hover {
+            background-color: $main-blue;
+        }
+        .header__callback-link {
+            font-family: Bebas Neue;
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: $main-text-color;
+            text-transform: uppercase;
+        }
+    }
+}

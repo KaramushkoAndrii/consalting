@@ -1,0 +1,29 @@
+include layout/head.pug           
+
+body
+        
+    include  layout/header.pug
+    main.main.container
+        
+        include blocks/start-screen.pug
+
+        include blocks/about.pug
+
+        include blocks/spec.pug
+
+        section.main__webnauts.webnauts 
+            
+            // webnauts header
+
+            include blocks/webnauts.pug
+
+            // webnauts slider
+            include blocks/webnauts-slider.pug
+
+        include blocks/another.pug
+
+        include blocks/review.pug
+
+        include blocks/write-me.pug
+                
+include layout/footer.pug

@@ -1,0 +1,30 @@
+.navigation {
+    box-sizing: border-box;
+    margin-left: 157px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__item {
+        padding-bottom: 23px;
+    }
+    &__link {
+        box-sizing: content-box;
+        max-width: 97px;
+        padding: 6px 19px 9px;
+        font-family: SF Pro Display;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $main-text-color;
+        border: 1px solid transparent;
+        border-radius: 50%;
+        &:hover {
+            border-color: $main-blue
+        }
+    }
+    li:last-of-type {
+        padding-bottom: 0px;
+    }
+}
